@@ -5,8 +5,8 @@ from fila import *
 
 teste = Apartamento(12,'nome', 'ende','numero', 'numero2', 'torre')
 teste.addvaga('oi')
-teste.addvaga('lara')
-teste.imprimiraFila()
+teste.addvaga('ciao')
+
 
 
 

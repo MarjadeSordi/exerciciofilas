@@ -16,9 +16,7 @@ class Apartamento(Torre):
     
     def addvaga(self, vaga):
         fila = Fila()
-        armazenar = []
-        armazenar.append(vaga)
-        fila.push(armazenar) 
+        fila.push(vaga) 
         return fila.imprimir()
       
     def deletevaga(self):
