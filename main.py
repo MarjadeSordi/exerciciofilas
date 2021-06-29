@@ -3,10 +3,10 @@ from fila import *
 
 
 
-teste = Apartamento(12,'nome', 'ende','numero', 'numero2', 'torre')
-teste.addvaga('oi')
-teste.addvaga('ciao')
+teste = Torre(1, 'bloco A', 'tamandare')
 
+apto = Apartamento(1,'202','vaga', teste)
+print (apto.torre.nome)
 
 
 
