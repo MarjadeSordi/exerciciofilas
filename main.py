@@ -49,7 +49,7 @@ def inserir_apartamento_na_fila():
   if mostrafila == 1:
     return inserirNafila.imprimir()
   elif mostrafila == 2:
-    return menu ()
+    return menu()
   
 
 def menu():
